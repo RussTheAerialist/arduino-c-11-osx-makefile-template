@@ -16,9 +16,11 @@ Makefile paths appropriately.
 1. Write your code in a combination of .cpp/.h files, by convention, the main
    file should be end with .ino
 2. Add names of any necessary libraries into the libraries.mk file
-3. Edit board.mk to set the board to the appropriate board.  `make boards` will list all appropriate boards.  You may need to set the processor also
+3. Edit board.mk to set the board to the appropriate board.  
 4. `make` to build
-5. `make deploy` to upload via avrdude
+5. `make upload` to upload via avrdude
+6. `make monitor` to connect to the serial point.
+7. To Exit the monitor, press `ctrl-a, k, y`
 
 
 # Contributing
